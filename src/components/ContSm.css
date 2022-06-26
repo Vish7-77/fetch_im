@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(14, 12, 12, 0.2);
+  transition: 0.3s;
+  width: 18rem;
+  background-color: white;
+  border-radius: 34px;
+  font-family: Lato;
+  }
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(29, 29, 29, 0.2);
+  cursor: pointer;
+}
+
+.card:hover img {
+  opacity: 0.3;
+}
+
+.cnt{
+  padding: 2px 16px;
+  width: 12rem;
+  font-family: Lato;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+
+img {
+  height: 9rem;
+  opacity: 1;
+  display: block;
+  height: 9rem;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  font-family: Lato;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 17.95rem;
+  height: 9rem;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  font-family: Lato;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  font-family: Lato;
+  padding: 16px 32px;
+
+}
